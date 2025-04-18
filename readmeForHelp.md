@@ -3,3 +3,4 @@
 
 2. install tailwind
 3. npx gltfjsx "file_name.glb"
+4. npm install react-countup
