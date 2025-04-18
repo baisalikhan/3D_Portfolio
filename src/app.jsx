@@ -1,7 +1,12 @@
 import React from "react";
+import Hero from "./sections/Hero";
 
 const App = () => {
-  return <div>Bais Ali Khan</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default App;
