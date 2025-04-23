@@ -7,10 +7,15 @@ import FeatureCards from "./sections/FeatureCards";
 import Experience from "./sections/Experience";
 import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
     <>
+      <div className="text-center underline">
+        <p>I'm currently updating the content on this page.</p>
+      </div>
       <NavBar />
       <Hero />
       <ShowCaseSection />
@@ -19,6 +24,8 @@ const App = () => {
       <Experience />
       <TechStack />
       <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 };
